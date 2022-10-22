@@ -1,0 +1,30 @@
+.profile{
+    width: 180px;
+    height: 180px;
+    background: linear-gradient(90deg,#FFE600,#FF0080,#DB20DB);
+    border-radius: 50%;
+    position: relative;
+}
+
+.profile .circle{
+    width: 94%;
+    height: 94%;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+
+.profile .circle .pic{
+    /* border: 1px solid red; */
+    width: 94%;
+    height: 94%;
+    border-radius: 50%;
+    background-image: url(../실습연습/img/pooh.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}

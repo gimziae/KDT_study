@@ -1,0 +1,25 @@
+.square{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.square img[alt="pooh"]{
+    width: 200px;
+}
+
+.overflow-visible{
+    overflow: visible;
+}
+.overflow-auto{
+    overflow: auto;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.overflow-scroll{
+    overflow: scroll;
+    box-sizing: border-box;
+}

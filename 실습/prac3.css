@@ -1,0 +1,13 @@
+p{
+    animation: para 4s;
+}
+
+@keyframes para {
+    0%{
+        transform: translateX(100%);
+        width: 500%;
+    }
+    100%{
+        width: 100%;
+    }
+}

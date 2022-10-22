@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, yellow, rgb(248, 106, 54));
+    position: absolute;
+    animation: circle 5s linear infinite;
+}
+
+@keyframes circle {
+    0%{
+        top: 0;
+        left: 0;
+        background: linear-gradient(45deg, yellow, rgb(248, 106, 54));
+    }
+    10%{
+        background: linear-gradient(90deg, yellow, rgb(248, 106, 54));
+    }
+    25%{
+        top: 0;
+        left: calc(100% - 100px);
+        background: linear-gradient(135deg, yellow, rgb(248, 106, 54));
+    }
+    35%{
+        background: linear-gradient(180deg, yellow, rgb(248, 106, 54));
+    }
+    50%{
+        top: calc(100% - 100px);
+        left: calc(100% - 100px);
+        background: linear-gradient(225deg, yellow, rgb(248, 106, 54));
+    }
+    70%{
+        top: calc(100% - 100px);
+        left: 0;
+        background: linear-gradient(270deg, yellow, rgb(248, 106, 54));
+    }
+    85%{
+        background: linear-gradient(315deg, yellow, rgb(248, 106, 54));
+    }
+    100%{
+        top: 0;
+        left: 0;
+        background: linear-gradient(45deg, yellow, rgb(248, 106, 54));
+    }
+    
+}

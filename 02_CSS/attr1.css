@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Noto+Serif+KR&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+@font-face {
+    font-family: 'SANGJUGyeongcheonIsland';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/SANGJUGyeongcheonIsland.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2{
+    font: bold 40px 'nanum brush script';
+}
+
+body{
+    font: normal 2rem 'SANGJUGyeongcheonIsland';
+}
+
+.container .sentences{
+    font-weight: lighter;
+    color: yellowgreen;
+    text-align: initial;
+    text-decoration: none;
+    line-height: 200%;
+}

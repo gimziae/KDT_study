@@ -1,0 +1,24 @@
+body{
+    height: 2000px;
+}
+
+.box{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.background-image{
+    background-image: url(../02_CSS/img/small_img.png);
+
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+
+    /* background-position: center bottom; 
+    background-position: 100px 100px; */
+
+    background-size: cover;
+
+    background-attachment: fixed;
+}

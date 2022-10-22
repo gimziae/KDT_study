@@ -1,0 +1,17 @@
+
+table tr .red{
+    color: red;
+}
+table tr .blue{
+    color: blue;
+}
+
+table{
+    background-color: rgba(100, 148, 237, 0.4);
+}
+table tr th{
+    text-align: center;
+}
+table tr td{
+    text-align: right;
+}

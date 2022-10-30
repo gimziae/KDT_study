@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Grid</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="bg-success text-light">container-fluid</div>
+    </div>
+    <div class="container">
+        <div class="bg-danger text-light">기본 container</div>
+        <div class="row text-center">
+            <div class="col bg-success">
+                column1 of 3
+            </div>
+            <div class="col bg-info">
+                column 2 of 3 (wider)
+            </div>
+            <div class="col bg-warning">
+                column 3 of 3
+            </div>
+        </div>
+        <div class="row text-center">
+            <!-- col은 12로 유지!! 12를 나눠서 가짐 -->
+            <div class="col bg-success">
+                column 1 of 3
+            </div>
+            <div class="col-6 bg-info">
+                column 2 of 3 (wider)
+            </div>
+            <div class="col bg-warning">
+                column 3 of 3
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8 col-md-4 col-lg-10 bg-warning">col1</div>
+            <div class="col-4 col-md-8 col-lg-2 bg-secondary">col2</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 bg-secondary">col</div>
+            <div class="col-md-4 bg-primary text-light">col</div>
+            <div class="col-md-4 bg-secondary">col</div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 bg-secondary">col</div>
+            <div class="col-md-2 bg-primary text-light">col</div>
+            <div class="col-md-2 bg-secondary">col</div>
+            <div class="col-md-2 bg-primary text-light">col</div>
+            <div class="col-md-2 bg-secondary">col</div>
+            <div class="col-md-2 bg-primary text-light">col</div>
+        </div>
+        <div class="row">
+            <div class="bg-danger col-md-8">col</div>
+            <div class="bg-warning col-6 col-md-4">col</div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="p-2 text-center col-6 col-md-3 bg-primary">1</div>
+            <div class="p-2 text-center col-6 col-md-3 bg-warning">2</div>
+            <div class="p-2 text-center col-6 col-md-3 bg-danger">3</div>
+            <div class="p-2 text-center col-6 col-md-3 bg-dark text-light">4</div>
+        </div>
+    </div>
+</body>
+
+</html>

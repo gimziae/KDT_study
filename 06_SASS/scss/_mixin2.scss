@@ -1,0 +1,11 @@
+@mixin btn($width:100px,$bgColor:red, $fontColor:#fff) {
+    display: block;
+    width: $width;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    font: bold 16px/30px 'arial';
+    color: $fontColor;
+    background-color: $bgColor;
+    margin: 20px auto 0;
+}

@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #eeeeee;
+}
+body .wrap {
+  width: 100%;
+  border-bottom: 2px solid #000;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  perspective: 600px;
+}
+body .wrap:hover .item {
+  opacity: 1;
+  transform: translate(0, 0) rotateY(0);
+}
+body .wrap .item {
+  width: 300px;
+  padding: 30px;
+  margin: 50px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  background-color: black;
+  border-radius: 10px;
+  transition: 0.4s;
+  opacity: 0;
+  transform: translate(0, 100px) rotateY(180deg);
+}
+body .wrap .item h2 {
+  font: bold 30px/1.2 "arial";
+  margin-bottom: 20px;
+  color: #fff;
+}
+body .wrap .item p {
+  font: normal 16px/1.5 "cursive";
+  color: #fff;
+}
+body .wrap .item:nth-of-type(1) {
+  transition-delay: 0.15s;
+}
+body .wrap .item:nth-of-type(1) a {
+  display: block;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  font: bold 16px/30px "arial";
+  color: #fff;
+  background-color: orange;
+  margin: 20px auto 0;
+}
+body .wrap .item:nth-of-type(2) {
+  transition-delay: 0.3s;
+}
+body .wrap .item:nth-of-type(2) a {
+  display: block;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  font: bold 16px/30px "arial";
+  color: #fff;
+  background-color: hotpink;
+  margin: 20px auto 0;
+}
+body .wrap .item:nth-of-type(3) {
+  transition-delay: 0.45s;
+}
+body .wrap .item:nth-of-type(3) a {
+  display: block;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  font: bold 16px/30px "arial";
+  color: #fff;
+  background-color: lightblue;
+  margin: 20px auto 0;
+}
+body .wrap .item:nth-of-type(4) {
+  transition-delay: 0.6s;
+}
+body .wrap .item:nth-of-type(4) a {
+  display: block;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  font: bold 16px/30px "arial";
+  color: #fff;
+  background-color: lightgreen;
+  margin: 20px auto 0;
+}
+
+/*# sourceMappingURL=style2.css.map */
